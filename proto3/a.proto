@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message FooA {
+	uint32 bar = 1;
+}

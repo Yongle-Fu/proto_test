@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+// import "a.proto";
+import "b.proto";
+
+message FooC
+{
+	FooB foo = 2;
+}
